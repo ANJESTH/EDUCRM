@@ -1,0 +1,123 @@
+@media (max-width: 1280px){
+
+.fill img {
+    height: 550px !important;
+}
+}
+@media (max-width: 990px) {
+#clients .item {
+    margin: 35px 54px 30px;
+    padding: 0;
+    width: 100px;
+    height: auto;
+    display: inline-block;
+}
+#clients .item:first-child {
+    margin-left: 54px;
+}
+#clients .item:last-child {
+  margin-right: 54px;
+}
+
+}
+@media (max-width: 800px) {
+ /* .content {
+    padding: 40% 0 0;
+    }*/
+    .carousel-caption h1{font-size: 30px;}
+#gi-home p.lead{font-size: 18px;}
+}
+
+@media (max-width: 768px){
+/*  .content {
+	padding: 40% 0 0;
+	}*/
+    .carousel-caption h1{font-size: 18px;}
+#gi-home p.lead{font-size: 16px;}
+#clients .item {
+    margin: 35px 54px 30px;
+    padding: 0;
+    width: 100px;
+    height: auto;
+    display: inline-block;
+}
+#clients .item:first-child {
+    margin-left: 54px;
+}
+#clients .item:last-child {
+  margin-right: 54px;
+}
+.lead {
+     height: 67px;
+    overflow: hidden;
+}
+}
+
+@media (max-width: 603px){
+/*#tf-menu.navbar-default {
+	background-color: rgba(0, 0, 0, 0.79);
+	}
+#tf-works li.pull-right, #tf-works li.pull-left {
+    margin-top: 10px;
+    float: none !important;
+    text-align: center;
+    display: block;
+}*/
+label{
+    float: none !important
+}
+/*.pull-left.fnav,
+.pull-right.fnav {
+    float: none !important;
+    text-align: center;
+}
+
+
+.hover-bg .hover-text {
+    padding: 12% 10%;
+}*/
+ .carousel-caption h1{font-size: 16px;}
+#gi-home p.lead{font-size: 14px;}
+}
+
+@media screen and (max-width:480px){
+/*.hover-bg .hover-text {
+    padding: 22% 10%;
+}
+.pull-left{
+width:75% !important;
+}*/
+img {
+width: 100%;
+height: 100%;
+}
+p.cont{
+font-size: 13px;
+}
+/*.top-number p{font-size: 9px;}
+.section-title h2{font-size: 20px;}*/
+.carousel-caption h1{font-size: 12px;margin: 20px 0 3px;}
+#gi-home p.lead{font-size: 11px;}
+#clients .item{margin: 35px 27px;}
+
+
+.fill img {
+	height: 270px;
+	width: 100%;
+}
+
+
+}
+@media (max-width: 360px){
+/*.hover-bg .hover-text {
+    padding: 22% 10%;
+}*/
+
+
+
+.fill img {
+	height: 270px;
+	width: 100%;
+}
+
+}
